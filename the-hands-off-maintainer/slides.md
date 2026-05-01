@@ -1,25 +1,19 @@
 ---
 theme: seriph
----
-
----
 layout: cover
-download: 'https://antfu.me/talks/2021-04-29'
 highlighter: shiki
 title: The Hands-Off Maintainer
 ---
 
 # The Hands-Off Maintainer
 
-Seamless npm Releases with OIDC & Release Please
+Seamless NPM Releases with OIDC & Release Please
 
 ---
 layout: center
 ---
 
 # The Problem
-
-<br>
 
 - Forgotten changelogs
 - Long-lived npm access tokens stored in CI

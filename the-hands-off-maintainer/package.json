@@ -1,14 +1,16 @@
 {
+  "name": "the-hands-off-maintainer",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "slidev slides.md",
-    "build": "slidev build slides.md",
-    "export": "slidev export slides.md"
-  },
-  "devDependencies": {
-    "@slidev/cli": "^52.15.0",
-    "@slidev/theme-default": "^0.25.0"
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/theme-seriph": "^0.25.0"
+    "@slidev/cli": "52.14.2",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.33"
   }
 }
