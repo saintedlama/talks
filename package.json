@@ -1,13 +1,14 @@
 {
-  "name": "the-hands-off-maintainer",
+  "name": "talks",
   "type": "module",
   "private": true,
   "scripts": {
+    "start": "node dashboard.mjs",
     "build": "slidev build",
-    "dev": "slidev --open",
     "export": "slidev export"
   },
   "dependencies": {
+    "@inquirer/prompts": "^8.4.2",
     "@slidev/cli": "52.14.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
