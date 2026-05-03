@@ -3,9 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "node dashboard.mjs",
-    "build": "slidev build",
-    "export": "slidev export"
+    "start": "node dashboard.mjs"
   },
   "dependencies": {
     "@inquirer/prompts": "^8.4.2",
