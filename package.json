@@ -6,10 +6,10 @@
     "start": "node dashboard.mjs"
   },
   "dependencies": {
-    "@inquirer/prompts": "^8.4.2",
-    "@slidev/cli": "52.14.2",
+    "@inquirer/prompts": "^8.6.0",
+    "@slidev/cli": "52.19.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.33"
+    "vue": "^3.5.41"
   }
 }
