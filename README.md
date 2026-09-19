@@ -48,3 +48,7 @@ npx slidev build the-hands-off-maintainer/slides.md
 # Export to PDF
 npx slidev export the-hands-off-maintainer/slides.md
 ```
+
+## License
+
+Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](LICENSE).
