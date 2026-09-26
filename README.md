@@ -26,13 +26,25 @@ You will be prompted to select a talk, then choose one of:
 
 ## Adding a talk
 
-Create a subdirectory with a `slides.md` file and it will appear in the dashboard automatically:
+Create a subdirectory with a `slides.md` file and it will appear in the dashboard and GitHub Pages build automatically:
 
 ```
 talks/
   my-new-talk/
     slides.md
 ```
+
+## GitHub Pages
+
+All talks are automatically built and published to GitHub Pages upon pushing to `main` via [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+
+To build the static site and landing page locally:
+
+```bash
+node build-pages.mjs
+```
+
+The output will be placed in `dist/` with a root `index.html` landing page linking to each talk.
 
 ## Running Slidev directly
 
