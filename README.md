@@ -2,6 +2,12 @@
 
 Github repository for talks given by @saintedlama.
 
+🌐 **Online Presentations:** [https://saintedlama.github.io/talks/](https://saintedlama.github.io/talks/)
+
+## Available Talks
+
+- [The Hands-Off Maintainer](https://saintedlama.github.io/talks/the-hands-off-maintainer/) — Seamless NPM Releases with OIDC & Release Please
+
 ## Getting started
 
 Install dependencies once:
@@ -36,7 +42,7 @@ talks/
 
 ## GitHub Pages
 
-All talks are automatically built and published to GitHub Pages upon pushing to `main` via [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+All talks are automatically built and published to GitHub Pages at [https://saintedlama.github.io/talks/](https://saintedlama.github.io/talks/) upon pushing to `main` via [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
 
 To build the static site and landing page locally:
 
