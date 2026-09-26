@@ -1,5 +1,7 @@
 # The Hands-Off Maintainer: Seamless npm Releases with OIDC & Release Please
 
+🌐 **View Slides:** [https://saintedlama.github.io/talks/the-hands-off-maintainer/](https://saintedlama.github.io/talks/the-hands-off-maintainer/)
+
 Manual package publishing is often a brittle mix of forgotten changelogs and risky, long-lived access tokens. This session demonstrates how to automate your entire release lifecycle using Release Please to handle semantic versioning directly from your commit history. We will explore npm Trusted Publishing, a passwordless OIDC-based authentication method that eliminates the need to store sensitive secrets in GitHub. You’ll walk away with a blueprint for a secure, "push-to-merge" workflow that lets you focus on writing code instead of managing deployments.
 
 ## Getting Versioning Right with Release Please
