@@ -11,5 +11,6 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
   },
-  "license": "CC-BY-NC-SA-4.0"
+  "license": "CC-BY-NC-SA-4.0",
+  "version": "1.0.0"
 }
