@@ -40,3 +40,4 @@ pnpm-lock.yaml
 
 # Agent stuff
 .claude/
+.playwright-mcp/
