@@ -7,6 +7,7 @@ Github repository for talks given by @saintedlama.
 ## Available Talks
 
 - [The Hands-Off Maintainer](https://saintedlama.github.io/talks/the-hands-off-maintainer/) — Seamless NPM Releases with OIDC & Release Please
+- [How GitHub fucked up security (and keeps doing it)](https://saintedlama.github.io/talks/github-security/) — A Story about Supply Chain Attacks
 
 ## Getting started
 
@@ -24,7 +25,22 @@ The interactive dashboard lets you pick a talk and an action:
 npm start
 ```
 
-You will be prompted to select a talk, then choose one of:
+You can also pass arguments directly or view usage:
+
+```bash
+# Interactive selection
+npm start
+
+# Direct CLI execution
+node dashboard.mjs github-security present
+node dashboard.mjs github-security build
+node dashboard.mjs github-security export
+
+# Show help & available talks
+node dashboard.mjs --help
+```
+
+You will be prompted to select a talk (if not specified as an argument), then choose one of:
 
 - **Present** — starts the Slidev dev server and opens the slides in the browser
 - **Build** — builds the slides as a static site into the talk's `dist/` folder
@@ -58,14 +74,21 @@ You can also use the Slidev CLI directly for a specific talk:
 
 ```bash
 # Present
+npx slidev github-security/slides.md
 npx slidev the-hands-off-maintainer/slides.md
 
 # Build static site
+npx slidev build github-security/slides.md
 npx slidev build the-hands-off-maintainer/slides.md
 
 # Export to PDF
+npx slidev export github-security/slides.md
 npx slidev export the-hands-off-maintainer/slides.md
 ```
+
+## Credits
+
+- Cover photo for *How GitHub fucked up security (and keeps doing it)*: Photo by <a href="https://unsplash.com/@oculareuphoria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin Podsiad</a> on <a href="https://unsplash.com/photos/police-cars-on-dark-residential-street-wrdtA9lew9E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ## License
 
