@@ -6,9 +6,10 @@ dist/
 .output/
 
 # Slidev export artifacts
-*.pdf
-*.png
-*.pptx
+*-export.pdf
+*-export.png
+*-export.pptx
+*-export/
 
 # Logs
 logs/
