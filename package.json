@@ -6,8 +6,8 @@
     "start": "node dashboard.mjs"
   },
   "dependencies": {
-    "@inquirer/prompts": "^8.7.2",
-    "@slidev/cli": "53.0.0",
+    "@inquirer/prompts": "^8.8.0",
+    "@slidev/cli": "53.1.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
   },
